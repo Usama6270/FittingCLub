@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fitting Club - Premium sports goods manufacturer and exporter from Sialkot, Pakistan. Boxing gloves, football gear, fitness equipment, and more.">
+    <title>Fitting Club | Engineered for Performance. Made in Sialkot.</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/LOFO.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- GSAP & ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    
+    <!-- Lenis Smooth Scroll -->
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <img src="assets/images/LOFO.png" alt="Fitting Club" class="preloader-logo">
+            <div class="preloader-progress">
+                <div class="preloader-progress-bar"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-logo">
+                <img src="assets/images/Logo (2).png" alt="Fitting Club Logo" class="logo-light" loading="lazy">
+                <img src="assets/images/Logo (2).png" alt="Fitting Club Logo" class="logo-dark" loading="lazy">
+            </a>
+            
+            <ul class="navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="dropdown-parent">
+                    <a href="products.html">Products</a>
+                    <div class="dropdown">
+                        <div id="nav-categories" class="dropdown-grid">
+                            <!-- Populated by assets/js/categories-data.js -->
+                        </div>
+                    </div>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <a href="https://wa.me/923187319091?text=Hi%20Fitting%20Club%2C%20I%20have%20an%20inquiry" class="btn whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Order on WhatsApp">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        <span class="whatsapp-label">Order on WhatsApp</span>
+                    </a>
+                </li>
+            </ul>
+            
+            <button class="mobile-menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+                <svg class="hamburger-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <line class="line-top" x1="3" y1="6" x2="21" y2="6"></line>
+                    <line class="line-mid" x1="3" y1="12" x2="21" y2="12"></line>
+                    <line class="line-bot" x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </nav>
+    
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-backdrop" id="mobile-menu-backdrop"></div>
+    <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Navigation menu">
+        <div class="mobile-menu-inner">
+            <div class="mobile-menu-header">
+                <a href="index.html" class="mobile-menu-logo">
+                    <img src="assets/images/Logo (2).png" alt="Fitting Club Logo">
+                </a>
+                <button class="mobile-menu-close" type="button" aria-label="Close menu">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            
+            <nav class="mobile-menu-nav">
+                <ul class="mobile-nav-list">
+                    <li class="mobile-nav-item"><a href="index.html" class="mobile-nav-link active">Home</a></li>
+                    <li class="mobile-nav-item"><a href="about.html" class="mobile-nav-link">About</a></li>
+                    <li class="mobile-accordion-item">
+                        <button class="mobile-accordion-header" type="button" aria-expanded="false">
+                            <span>Products</span>
+                            <svg class="chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </button>
+                        <div class="mobile-accordion-body">
+                            <div id="mobile-categories" class="mobile-accordion">
+                                <!-- Populated by assets/js/categories-data.js -->
+                            </div>
+                        </div>
+                    </li>
+                    <li class="mobile-nav-item"><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="mobile-menu-footer">
+                <a href="https://wa.me/923187319091?text=Hi%20Fitting%20Club%2C%20I%20have%20an%20inquiry" class="btn btn-primary mobile-wa-btn" target="_blank" rel="noopener noreferrer">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    <span class="mobile-wa-label">Order on WhatsApp</span>
+                </a>
+                <div class="mobile-social-row">
+                    <a href="https://www.facebook.com/share/1Bz4ktuUrT/" target="_blank" aria-label="Facebook" rel="noopener noreferrer"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+                    <a href="https://www.instagram.com/fitting_club" target="_blank" aria-label="Instagram" rel="noopener noreferrer"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- Background Orbs -->
+        <div class="hero-orb hero-orb-1"></div>
+        <div class="hero-orb hero-orb-2"></div>
+        
+        <!-- Parallax Layers -->
+        <div class="hero-parallax hero-parallax-back">
+            <div class="hero-slideshow">
+                <div class="hero-slide active">
+                    <img src="assets/images/banner1.png" alt="Fitting Club hero banner" loading="eager" fetchpriority="high" width="1920" height="1080">
+                </div>
+                <div class="hero-slide">
+                    <img src="assets/images/banner2.png" alt="Sports equipment showcase" loading="lazy" width="1920" height="1080">
+                </div>
+                <div class="hero-slide">
+                    <img src="assets/images/banner3.png" alt="Premium boxing gear" loading="lazy" width="1920" height="1080">
+                </div>
+                <div class="hero-slide">
+                    <img src="assets/images/banner4.png" alt="Football and team sports" loading="lazy" width="1920" height="1080">
+                </div>
+                <div class="hero-slide">
+                    <img src="assets/images/banner5.png" alt="Fitness and gym equipment" loading="lazy" width="1920" height="1080">
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-parallax hero-parallax-mid">
+            <div class="hero-content">
+                <div class="hero-buttons">
+                    <a href="products.html" class="btn btn-primary btn-full-mobile">Explore Products</a>
+                    <a href="https://wa.me/923187319091?text=Hi%20Fitting%20Club%2C%20I%20would%20like%20to%20place%20an%20order" class="btn btn-secondary btn-full-mobile" target="_blank" rel="noopener noreferrer">Contact Us on WhatsApp</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 5v14M19 12l-7 7-7-7"/>
+            </svg>
+        </div>
+    </section>
+    
+    <!-- Category Showcase -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-title-mask">
+                    <h2 class="section-title">OUR PRODUCT RANGE</h2>
+                </div>
+            </div>
+            
+            <div id="homepage-categories">
+                <!-- Populated by assets/js/categories-data.js -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- Scroll-Linked Image Sequence Section -->
+    <section class="image-sequence-section">
+        <div class="container">
+            <div class="image-sequence-frame">
+                <video id="productSequenceVideo" class="image-sequence-video" autoplay muted loop playsinline preload="metadata">
+                    <source src="assets/images/video.mp4" type="video/mp4">
+                </video>
+                <div class="image-sequence-overlay"></div>
+                <div class="sequence-caption" id="sequenceCaption">Premium Craftsmanship</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Carousel -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-title-mask">
+                    <h2 class="section-title">FEATURED PRODUCTS</h2>
+                </div>
+            </div>
+            
+            <div class="products-carousel" id="featured-products-carousel">
+                <!-- Populated dynamically by assets/js/main.js -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- Our Process Section -->
+    <section class="section process-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">HOW WE WORK</p>
+                <div class="section-title-mask">
+                    <h2 class="section-title">OUR PROCESS</h2>
+                </div>
+            </div>
+            
+            <div class="process-steps">
+                <div class="process-line">
+                    <div class="process-line-progress"></div>
+                </div>
+                
+                <!-- Step 1 -->
+                <div class="process-step" data-step="1">
+                    <div class="process-card">
+                        <div class="process-number">01</div>
+                        <div class="process-image-wrapper">
+                            <div class="process-image-placeholder"></div>
+                            <img 
+                                src="assets/images/process-1.jpg" 
+                                alt="Raw Material Sourcing"
+                                loading="lazy"
+                            >
+                        </div>
+                        <div class="process-content">
+                            <h3>Raw Material Sourcing</h3>
+                            <p>We source only the finest premium materials from trusted suppliers worldwide. Every roll of fabric is inspected for quality before production.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="process-step" data-step="2">
+                    <div class="process-card">
+                        <div class="process-number">02</div>
+                        <div class="process-image-wrapper">
+                            <div class="process-image-placeholder"></div>
+                            <img 
+                                src="assets/images/process-2.jpg" 
+                                alt="Cutting & Stitching"
+                                loading="lazy"
+                            >
+                        </div>
+                        <div class="process-content">
+                            <h3>Cutting & Stitching</h3>
+                            <p>Our master craftsmen use precision cutting and industrial sewing machines to ensure perfect construction in every product.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Step 3 -->
+                <div class="process-step" data-step="3">
+                    <div class="process-card">
+                        <div class="process-number">03</div>
+                        <div class="process-image-wrapper">
+                            <div class="process-image-placeholder"></div>
+                            <img 
+                                src="assets/images/process-3.jpg" 
+                                alt="Quality Control"
+                                loading="lazy"
+                            >
+                        </div>
+                        <div class="process-content">
+                            <h3>Quality Control</h3>
+                            <p>Rigorous quality checks at every stage ensure that only products meeting our highest standards proceed to packaging.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Step 4 -->
+                <div class="process-step" data-step="4">
+                    <div class="process-card">
+                        <div class="process-number">04</div>
+                        <div class="process-image-wrapper">
+                            <div class="process-image-placeholder"></div>
+                            <img 
+                                src="assets/images/process-4.jpg" 
+                                alt="Packaging"
+                                loading="lazy"
+                            >
+                        </div>
+                        <div class="process-content">
+                            <h3>Packaging</h3>
+                            <p>Products are carefully packaged to ensure they arrive in perfect condition, ready for your customers.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Step 5 -->
+                <div class="process-step" data-step="5">
+                    <div class="process-card">
+                        <div class="process-number">05</div>
+                        <div class="process-image-wrapper">
+                            <div class="process-image-placeholder"></div>
+                            <img 
+                                src="assets/images/process-5.jpg" 
+                                alt="Global Export"
+                                loading="lazy"
+                            >
+                        </div>
+                        <div class="process-content">
+                            <h3>Global Export</h3>
+                            <p>We handle all logistics, ensuring timely delivery to destinations worldwide with reliable shipping partners.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+</div>
+    
+    <!-- Certifications Marquee -->
+    <section class="marquee">
+    <section class="section testimonials">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-title-mask">
+                    <h2 class="section-title">WHAT OUR CLIENTS SAY</h2>
+                </div>
+            </div>
+            
+            <div class="testimonial-slider" id="testimonialSlider">
+                <div class="testimonial-slide active">
+                    <p class="testimonial-quote">"The quality of products is outstanding! Fitting Club has been our trusted supplier for 5 years now."</p>
+                    <div class="testimonial-author">— John Smith, Sports USA</div>
+                </div>
+                <div class="testimonial-slide">
+                    <p class="testimonial-quote">"Excellent craftsmanship and timely delivery. Highly recommended for sports goods manufacturing."</p>
+                    <div class="testimonial-author">— Maria Garcia, Fitness Europe</div>
+                </div>
+                <div class="testimonial-slide">
+                    <p class="testimonial-quote">"Professional team, premium products, and competitive pricing. A true partner for our business."</p>
+                    <div class="testimonial-author">— David Chen, MMA Asia</div>
+                </div>
+                <div class="testimonial-slide">
+                    <p class="testimonial-quote">"Sialkot's finest! The attention to detail in every product is remarkable."</p>
+                    <div class="testimonial-author">— James Wilson, Football UK</div>
+                </div>
+                <div class="testimonial-dots" role="tablist" aria-label="Testimonial slides"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2>READY TO PLACE YOUR ORDER?</h2>
+            <a href="https://wa.me/923187319091?text=Hi%20Fitting%20Club%2C%20I%20would%20like%20to%20place%20an%20order" class="btn btn-primary btn-pulse" target="_blank">Chat on WhatsApp</a>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-col-brand">
+                    <img src="assets/images/LOFO.png" alt="Fitting Club Logo" class="footer-logo" loading="lazy">
+                    <p>Premium sports goods manufacturer and exporter from Sialkot, Pakistan. Engineered for performance.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <button type="button" class="footer-accordion-toggle" aria-expanded="false">
+                        Quick Links
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="footer-accordion-panel">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-heading">Product Categories</h4>
+                    <button type="button" class="footer-accordion-toggle" aria-expanded="false">
+                        Product Categories
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="footer-accordion-panel" id="footer-categories">
+                        <!-- Populated by assets/js/categories-data.js -->
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-heading">Contact Info</h4>
+                    <button type="button" class="footer-accordion-toggle" aria-expanded="false">
+                        Contact Info
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="footer-accordion-panel">
+                        <p>Sialkot, Punjab, Pakistan</p>
+                        <p>Email: info@fittingclub.com</p>
+                        <p>Phone: +92 318 7319091</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-social-row" aria-hidden="false">
+                    <a href="https://www.facebook.com/fitting_club" target="_blank" aria-label="Facebook" rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <a href="https://www.instagram.com/fitting_club" target="_blank" aria-label="Instagram" rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    </a>
+                </div>
+                <p>&copy; 2026 Fitting Club. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/923187319091?text=Hi%20Fitting%20Club%2C%20I%20have%20an%20inquiry" class="floating-whatsapp" target="_blank">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+    
+    <!-- Categories Data (sitewide) -->
+    <script src="assets/js/categories-data.js"></script>
+    <!-- Products Data -->
+    <script src="assets/js/products-data.js"></script>
+    <!-- Main Script -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

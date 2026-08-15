@@ -1,0 +1,13 @@
+{
+  "name": "fitting-club",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Fitting Club product import and site tooling",
+  "scripts": {
+    "import:basketball": "node scripts/import-basketball-products.js"
+  },
+  "dependencies": {
+    "mammoth": "^1.8.0",
+    "sharp": "^0.33.5"
+  }
+}
