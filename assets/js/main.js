@@ -28,10 +28,13 @@ function createProductCard(product) {
     if (product.subgroup) card.setAttribute('data-subgroup', product.subgroup);
 
     const images = Array.isArray(product.images) && product.images.length > 0 ? product.images : (product.thumbnail ? [product.thumbnail] : []);
-    // Always default to images[0] (image 1)
-    const defaultImage = images[0] || product.thumbnail || '';
+    // Fixed rule: Card thumbnail = images[1] (image-2), fallback to images[0]
+    const defaultImage = images[1] || images[0] || '';
+    const productId = product.id || product.slug || '';
+
     if (images[0]) card.setAttribute('data-image-1', images[0]);
     if (images[1]) card.setAttribute('data-image-2', images[1]);
+    if (productId) card.setAttribute('data-product-id', productId);
 
     const teaser = (() => {
         if (typeof product.description !== 'string') return '';
@@ -45,30 +48,10 @@ function createProductCard(product) {
         const candidate = lines.find(line => !/kit\s*\d+\s*[–-]/i.test(line) && line.length > 25) || lines[0] || '';
         return candidate.length > 160 ? candidate.slice(0, 157).trimEnd() + '...' : candidate;
     })();
-    const previewDescription = typeof product.description === 'string' ? product.description : '';
-
-    card.setAttribute('data-preview-src', defaultImage);
-    card.setAttribute('data-preview-title', product.name || 'Product');
-    card.setAttribute('data-preview-description', previewDescription);
-
-    const isSwappable = images.length >= 2;
-    const dotsMarkup = isSwappable
-        ? `<div class="img-swap-dots" aria-hidden="true">${images.map((_, idx) => `<span class="dot ${idx === 0 ? 'active' : ''}"></span>`).join('')}</div>`
-        : '';
-    const imgBadge = isSwappable
-        ? `<div class="img-swap-badge" aria-hidden="true"><span class="img-current">1</span>/${images.length}</div>`
-        : '';
-    const imgHint = isSwappable
-        ? `<div class="img-swap-hint" aria-hidden="true">Click to view</div>`
-        : '';
-
-    const imageMarkup = defaultImage
-        ? `<img src="${defaultImage}" alt="${product.name || 'Product'}" loading="lazy" width="600" height="600" sizes="(max-width: 479px) 100vw, (max-width: 767px) 50vw, (max-width: 1279px) 33vw, 25vw">${imgBadge}${dotsMarkup}${imgHint}`
-        : '';
 
     card.innerHTML = `
-        <div class="product-image-wrapper ${isSwappable ? 'is-swappable' : ''}">
-            ${imageMarkup}
+        <div class="product-image-wrapper">
+            ${defaultImage ? `<img src="${defaultImage}" alt="${product.name || 'Product'}" loading="lazy" width="600" height="600" sizes="(max-width: 479px) 100vw, (max-width: 767px) 50vw, (max-width: 1279px) 33vw, 25vw">` : ''}
         </div>
         <div class="product-info">
             <h3 class="product-name">${product.name || 'Product'}</h3>
@@ -77,44 +60,13 @@ function createProductCard(product) {
         </div>
     `;
 
-    if (isSwappable) {
-        const imageWrapper = card.querySelector('.product-image-wrapper');
-        const img = imageWrapper?.querySelector('img');
-        const badgeCurrent = imageWrapper?.querySelector('.img-current');
-        const dots = imageWrapper?.querySelectorAll('.img-swap-dots .dot');
-
-        if (imageWrapper && img) {
-            imageWrapper.style.cursor = 'pointer';
-            let currentIdx = 0;
-
-            imageWrapper.addEventListener('click', (e) => {
-                if (e.target.closest('[data-product]')) return;
-                e.stopPropagation();
-                e.preventDefault();
-
-                currentIdx = (currentIdx + 1) % images.length;
-                const nextSrc = images[currentIdx];
-
-                if (badgeCurrent) badgeCurrent.textContent = String(currentIdx + 1);
-                if (dots && dots.length) {
-                    dots.forEach((dot, idx) => {
-                        dot.classList.toggle('active', idx === currentIdx);
-                    });
-                }
-
-                card.setAttribute('data-preview-src', nextSrc);
-
-                img.style.transition = 'opacity 0.25s ease, transform 0.35s ease';
-                img.style.opacity = '0.15';
-                img.style.transform = 'scale(0.96)';
-                setTimeout(() => {
-                    img.setAttribute('src', nextSrc);
-                    img.style.opacity = '1';
-                    img.style.transform = 'scale(1)';
-                }, 140);
-            });
-        }
-    }
+    card.style.cursor = 'pointer';
+    card.addEventListener('click', (event) => {
+        const clickedButton = event.target.closest('[data-product]');
+        if (clickedButton) return;
+        if (!productId) return;
+        window.location.href = `product.html?id=${encodeURIComponent(productId)}`;
+    });
 
     return card;
 }
@@ -163,6 +115,94 @@ function renderFeaturedProducts() {
         frag.appendChild(createProductCard(product));
     });
     grid.appendChild(frag);
+}
+
+function getProductById(productId) {
+    if (!productId || !Array.isArray(window.productsData)) return null;
+    const normalized = decodeURIComponent(productId).trim();
+    return window.productsData.find(product => {
+        if (!product) return false;
+        return product.id === normalized || product.slug === normalized || product.name === normalized;
+    }) || null;
+}
+
+function initProductDetailPage() {
+    const root = document.getElementById('product-detail-root');
+    if (!root) return;
+
+    const params = new URLSearchParams(window.location.search);
+    const productId = params.get('id');
+    const product = getProductById(productId);
+
+    if (!product) {
+        root.innerHTML = `
+            <div class="product-detail-empty">
+                <h1>Product not found</h1>
+                <p>The product you requested could not be found.</p>
+                <a href="products.html" class="btn btn-primary">Back to products</a>
+            </div>
+        `;
+        return;
+    }
+
+    // Fixed rule: Detail view hero image = images[0] (image-1)
+    const images = Array.isArray(product.images) ? product.images : [];
+    const heroImage = images[0] || '';
+    const title = product.name || 'Product';
+    const description = typeof product.description === 'string' ? product.description : '';
+    const prettyDescription = description
+        .split(/\n+/)
+        .map(line => line.trim())
+        .filter(Boolean)
+        .filter(line => !/^(seo title|product description|key features|specifications|image alt text)$/i.test(line))
+        .join('<br><br>');
+
+    // Apply SEO tags
+    document.title = product.seo?.metaTitle || `${title} | Fitting Club`;
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+        metaDescription.setAttribute('content', product.seo?.metaDescription || `Premium ${title} from Fitting Club. Quality products manufactured in Sialkot, Pakistan.`);
+    }
+
+    root.innerHTML = `
+        <nav class="product-detail-breadcrumb" aria-label="Breadcrumb">
+            <a href="index.html">Home</a>
+            <span>/</span>
+            <a href="products.html">Products</a>
+            <span>/</span>
+            <span>${product.group ? product.group.replace(/-/g, ' ') : 'Sportswear'}</span>
+            <span>/</span>
+            <span>${title}</span>
+        </nav>
+        <div class="product-detail-layout">
+            <div class="product-detail-visual">
+                <div class="product-detail-image-wrap">
+                    ${heroImage ? `<img src="${heroImage}" alt="${product.seo?.imageAlt || title}" loading="eager">` : ''}
+                </div>
+            </div>
+            <div class="product-detail-copy">
+                <p class="eyebrow">Premium product</p>
+                <h1>${title}</h1>
+                <div class="product-detail-description">${prettyDescription || '<p>Product information coming soon.</p>'}</div>
+                <div class="product-detail-actions">
+                    <button class="btn btn-primary product-detail-whatsapp" data-product="${title}">Enquire on WhatsApp</button>
+                    <button class="btn btn-secondary product-detail-back">← Back to Products</button>
+                </div>
+            </div>
+        </div>
+    `;
+
+    // Setup back button with history.back() and fallback
+    const backBtn = root.querySelector('.product-detail-back');
+    if (backBtn) {
+        backBtn.addEventListener('click', () => {
+            if (window.history.length > 1) {
+                window.history.back();
+            } else {
+                window.location.href = 'products.html';
+            }
+        });
+    }
 }
 
 function buildProductUrl(groupSlug, itemSlug, subgroupSlug) {
@@ -380,6 +420,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initCategoriesRender();
     renderImportedProducts();
     renderFeaturedProducts();
+    initProductDetailPage();
     initDropdown();
     initMobileMenu();
     initWhatsAppButtons();
@@ -388,7 +429,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initProductFilter();
     initContactForm();
     initGalleryLightbox();
-    initProductPreview();
     
     if (!prefersReducedMotion) {
         initLenis();
@@ -643,8 +683,8 @@ function startHeroAnimations() {
             y: 0,
             rotateX: 0,
             opacity: 1,
-            duration: 0.8,
-            stagger: 0.03,
+            duration: 1.0,
+            stagger: 0.06,
             ease: 'power3.out'
         });
     }
@@ -652,19 +692,19 @@ function startHeroAnimations() {
     if (heroSubtitle) {
         tl.to(heroSubtitle, {
             opacity: 1,
-            duration: 0.6,
+            duration: 0.9,
             ease: 'power2.out'
-        }, '-=0.3');
+        }, '-=0.5');
     }
     
     if (heroButtons.length > 0) {
         tl.from(heroButtons, {
             y: 30,
             opacity: 0,
-            duration: 0.6,
-            stagger: 0.1,
+            duration: 0.9,
+            stagger: 0.15,
             ease: 'power3.out'
-        }, '-=0.3');
+        }, '-=0.4');
     }
 }
 
@@ -683,8 +723,8 @@ function initHeroSlideshow() {
         slides[currentSlide].classList.add('active');
     }
     
-    // Change slide every 4 seconds
-    setInterval(showNextSlide, 4000);
+    // Hold each slide for 6 seconds (premium, unhurried pacing)
+    setInterval(showNextSlide, 6000);
 }
 
 // ================================================
@@ -703,7 +743,7 @@ function initHeroParallax() {
         trigger: hero,
         start: 'top top',
         end: 'bottom top',
-        scrub: true,
+        scrub: 1.5,
         onUpdate: (self) => {
             const progress = self.progress;
             if (parallaxBack) {
@@ -1273,108 +1313,7 @@ function initGalleryLightbox() {
     });
 }
 
-// ================================================
-// PRODUCT PREVIEW MODAL
-// ================================================
-function initProductPreview() {
-    const productCards = document.querySelectorAll('.product-card[data-preview-src]');
-    if (productCards.length === 0) return;
 
-    const preview = document.createElement('div');
-    preview.className = 'product-preview-lightbox';
-    preview.id = 'productPreviewLightbox';
-    preview.innerHTML = `
-        <button class="product-preview-close" aria-label="Close preview">&times;</button>
-        <div class="product-preview-panel" role="dialog" aria-modal="true" aria-label="Product preview">
-            <img class="product-preview-image" alt="Product preview">
-            <div class="product-preview-content">
-                <h2 class="product-preview-title"></h2>
-                <div class="product-preview-body"></div>
-            </div>
-        </div>
-    `;
-    document.body.appendChild(preview);
-
-    const previewImage = preview.querySelector('.product-preview-image');
-    const previewTitle = preview.querySelector('.product-preview-title');
-    const previewBody = preview.querySelector('.product-preview-body');
-    const closeBtn = preview.querySelector('.product-preview-close');
-
-    const closePreview = () => {
-        preview.classList.remove('active');
-        document.body.style.overflow = '';
-    };
-
-    const openPreview = (card) => {
-        const src = card.getAttribute('data-preview-src');
-        const title = card.getAttribute('data-preview-title') || card.querySelector('.product-name')?.textContent || 'Product Preview';
-        const description = card.getAttribute('data-preview-description') || '';
-
-        previewImage.src = src;
-        previewImage.alt = title;
-        previewTitle.textContent = title;
-
-        const lines = description.split('\n').map(line => line.trim());
-        const sections = [];
-        let currentSection = null;
-
-        lines.forEach(line => {
-            if (!line) return;
-            if (line === 'Key Features' || line === 'Specifications') {
-                currentSection = { title: line, items: [] };
-                sections.push(currentSection);
-                return;
-            }
-
-            if (currentSection && currentSection.title === 'Key Features' && line) {
-                currentSection.items.push(line);
-                return;
-            }
-
-            if (currentSection && currentSection.title === 'Specifications') {
-                currentSection.items.push(line);
-                return;
-            }
-
-            sections.push({ paragraph: line });
-        });
-
-        previewBody.innerHTML = sections.map(section => {
-            if (section.paragraph) {
-                return `<p>${section.paragraph}</p>`;
-            }
-
-            if (section.title === 'Key Features') {
-                return `<h3>${section.title}</h3><ul>${section.items.map(item => `<li>${item}</li>`).join('')}</ul>`;
-            }
-
-            if (section.title === 'Specifications') {
-                return `<h3>${section.title}</h3><ul>${section.items.map(item => `<li>${item}</li>`).join('')}</ul>`;
-            }
-
-            return '';
-        }).join('');
-
-        preview.classList.add('active');
-        document.body.style.overflow = 'hidden';
-    };
-
-    productCards.forEach(card => {
-        card.addEventListener('click', (e) => {
-            const clickedButton = e.target.closest('[data-product]');
-            if (clickedButton) return;
-            openPreview(card);
-        });
-    });
-
-    closeBtn.addEventListener('click', closePreview);
-    preview.addEventListener('click', (e) => {
-        if (e.target === preview) closePreview();
-    });
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') closePreview();
-    });
-}
 
 // ================================================
 // PRODUCT FILTER (GROUP + CATEGORY)

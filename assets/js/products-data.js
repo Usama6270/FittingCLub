@@ -11,7 +11,19 @@ window.productsData = [
       "/assets/images/products/basketball-uniforms/classic-black-basketball-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/basketball-uniforms/classic-black-basketball-kit/image-2.jpg",
-    "featured": true
+    "featured": true,
+    "seo": {
+      "metaTitle": "Classic Black Basketball Kit | Fitting Club",
+      "metaDescription": "Take your team's game to the next level with the Classic Black Basketball Kit from Fitting Club. Designed for professional clubs, schools, academies, and",
+      "keywords": [
+        "classic black basketball kit",
+        "basketball-uniforms",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Classic Black Basketball Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "midnight-horizon-basketball-kit",
@@ -25,7 +37,19 @@ window.productsData = [
       "/assets/images/products/basketball-uniforms/midnight-horizon-basketball-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/basketball-uniforms/midnight-horizon-basketball-kit/image-2.jpg",
-    "featured": true
+    "featured": true,
+    "seo": {
+      "metaTitle": "Midnight Horizon Basketball Kit | Fitting Club",
+      "metaDescription": "Step onto the court with confidence in the Midnight Horizon Basketball Kit from Fitting Club. Designed for clubs, schools, academies, and competitive",
+      "keywords": [
+        "midnight horizon basketball kit",
+        "basketball-uniforms",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Midnight Horizon Basketball Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "crimson-storm-basketball-kit",
@@ -39,7 +63,19 @@ window.productsData = [
       "/assets/images/products/basketball-uniforms/crimson-storm-basketball-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/basketball-uniforms/crimson-storm-basketball-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Crimson Storm Basketball Kit | Fitting Club",
+      "metaDescription": "Ignite your team's performance with the Crimson Storm Basketball Kit from Fitting Club. Designed for clubs, schools, academies, and competitive basketball",
+      "keywords": [
+        "crimson storm basketball kit",
+        "basketball-uniforms",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Crimson Storm Basketball Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "arctic-frost-basketball-kit",
@@ -53,7 +89,19 @@ window.productsData = [
       "/assets/images/products/basketball-uniforms/arctic-frost-basketball-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/basketball-uniforms/arctic-frost-basketball-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Arctic Frost Basketball Kit | Fitting Club",
+      "metaDescription": "Bring a fresh, modern look to the court with the Arctic Frost Basketball Kit from Fitting Club. Designed for clubs, schools, academies, and competitive",
+      "keywords": [
+        "arctic frost basketball kit",
+        "basketball-uniforms",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Arctic Frost Basketball Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "golden-empire-basketball-kit",
@@ -67,7 +115,19 @@ window.productsData = [
       "/assets/images/products/basketball-uniforms/golden-empire-basketball-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/basketball-uniforms/golden-empire-basketball-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Golden Empire Basketball Kit | Fitting Club",
+      "metaDescription": "Rule the court with the Golden Empire Basketball Kit from Fitting Club. Designed for professional basketball clubs, schools, academies, and custom teams, this",
+      "keywords": [
+        "golden empire basketball kit",
+        "basketball-uniforms",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Golden Empire Basketball Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "emerald-force-basketball-kit",
@@ -81,7 +141,19 @@ window.productsData = [
       "/assets/images/products/basketball-uniforms/emerald-force-basketball-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/basketball-uniforms/emerald-force-basketball-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Emerald Force Basketball Kit | Fitting Club",
+      "metaDescription": "Bring power, precision, and style to every game with the Emerald Force Basketball Kit from Fitting Club. Featuring a bold dark emerald green base with sharp",
+      "keywords": [
+        "emerald force basketball kit",
+        "basketball-uniforms",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Emerald Force Basketball Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "royal-dynasty-basketball-kit",
@@ -95,7 +167,19 @@ window.productsData = [
       "/assets/images/products/basketball-uniforms/royal-dynasty-basketball-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/basketball-uniforms/royal-dynasty-basketball-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Royal Dynasty Basketball Kit | Fitting Club",
+      "metaDescription": "Elevate your team's style with the Royal Dynasty Basketball Kit from Fitting Club. Inspired by championship-winning teams, this premium basketball uniform",
+      "keywords": [
+        "royal dynasty basketball kit",
+        "basketball-uniforms",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Royal Dynasty Basketball Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "phantom-legacy-basketball-kit",
@@ -109,7 +193,19 @@ window.productsData = [
       "/assets/images/products/basketball-uniforms/phantom-legacy-basketball-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/basketball-uniforms/phantom-legacy-basketball-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Phantom Legacy Basketball Kit | Fitting Club",
+      "metaDescription": "Bring bold energy and elite performance to every game with the Phantom Legacy Basketball Kit from Fitting Club. Designed for clubs, schools, academies, and",
+      "keywords": [
+        "phantom legacy basketball kit",
+        "basketball-uniforms",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Phantom Legacy Basketball Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "crimson-elite-basketball-kit",
@@ -123,7 +219,19 @@ window.productsData = [
       "/assets/images/products/basketball-uniforms/crimson-elite-basketball-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/basketball-uniforms/crimson-elite-basketball-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Crimson Elite Basketball Kit | Fitting Club",
+      "metaDescription": "Make a bold statement every time you step onto the court with the Crimson Elite Basketball Kit from Fitting Club. Designed for professional clubs, schools,",
+      "keywords": [
+        "crimson elite basketball kit",
+        "basketball-uniforms",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Crimson Elite Basketball Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "onyx-dominance-basketball-kit",
@@ -137,7 +245,19 @@ window.productsData = [
       "/assets/images/products/basketball-uniforms/onyx-dominance-basketball-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/basketball-uniforms/onyx-dominance-basketball-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Onyx Dominance Basketball Kit | Fitting Club",
+      "metaDescription": "Take control of the court with the Onyx Dominance Basketball Kit from Fitting Club. Designed for clubs, schools, academies, universities, and professional",
+      "keywords": [
+        "onyx dominance basketball kit",
+        "basketball-uniforms",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Onyx Dominance Basketball Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "arctic-fusion-basketball-kit",
@@ -151,7 +271,19 @@ window.productsData = [
       "/assets/images/products/basketball-uniforms/arctic-fusion-basketball-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/basketball-uniforms/arctic-fusion-basketball-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Arctic Fusion Basketball Kit | Fitting Club",
+      "metaDescription": "Refresh your team's identity with the Arctic Fusion Basketball Kit from Fitting Club. Featuring a bold deep teal base with crisp white and ice-blue",
+      "keywords": [
+        "arctic fusion basketball kit",
+        "basketball-uniforms",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Arctic Fusion Basketball Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "inferno-strike-basketball-kit",
@@ -165,7 +297,19 @@ window.productsData = [
       "/assets/images/products/basketball-uniforms/inferno-strike-basketball-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/basketball-uniforms/inferno-strike-basketball-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Inferno Strike Basketball Kit | Fitting Club",
+      "metaDescription": "Forest Vanguard Football Kit Command attention on the pitch with the Forest Vanguard Football Kit from Fitting Club. Featuring a premium dark forest green base",
+      "keywords": [
+        "inferno strike basketball kit",
+        "basketball-uniforms",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Inferno Strike Basketball Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "classic-black-football-kit",
@@ -179,7 +323,19 @@ window.productsData = [
       "/assets/images/products/football-soccer-kits/classic-black-football-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/football-soccer-kits/classic-black-football-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Classic Black Football Kit | Fitting Club",
+      "metaDescription": "The Classic Black Football Kit by Fitting Club combines modern performance with a timeless professional look. Designed for football clubs, academies, schools,",
+      "keywords": [
+        "classic black football kit",
+        "football-soccer-kits",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Classic Black Football Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "royal-blue-football-kit",
@@ -193,7 +349,19 @@ window.productsData = [
       "/assets/images/products/football-soccer-kits/royal-blue-football-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/football-soccer-kits/royal-blue-football-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Royal Blue Football Kit | Fitting Club",
+      "metaDescription": "The Royal Blue Football Kit from Fitting Club delivers elite performance with a modern dynamic appearance. Featuring premium moisture-control fabric,",
+      "keywords": [
+        "royal blue football kit",
+        "football-soccer-kits",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Royal Blue Football Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "crimson-elite-football-kit",
@@ -207,7 +375,19 @@ window.productsData = [
       "/assets/images/products/football-soccer-kits/crimson-elite-football-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/football-soccer-kits/crimson-elite-football-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Crimson Elite Football Kit | Fitting Club",
+      "metaDescription": "Make a bold statement on match day with the Crimson Elite Football Kit from Fitting Club. Designed with a rich crimson (maroon) color accented by premium gold",
+      "keywords": [
+        "crimson elite football kit",
+        "football-soccer-kits",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Crimson Elite Football Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "forest-green-football-kit",
@@ -221,7 +401,19 @@ window.productsData = [
       "/assets/images/products/football-soccer-kits/forest-green-football-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/football-soccer-kits/forest-green-football-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Forest Green Football Kit | Fitting Club",
+      "metaDescription": "Bring a bold and professional look to the pitch with the Forest Green Football Kit from Fitting Club. Featuring a rich forest green base enhanced with elegant",
+      "keywords": [
+        "forest green football kit",
+        "football-soccer-kits",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Forest Green Football Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "navy-dominance-football-kit",
@@ -235,7 +427,19 @@ window.productsData = [
       "/assets/images/products/football-soccer-kits/navy-dominance-football-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/football-soccer-kits/navy-dominance-football-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Navy Dominance Football Kit | Fitting Club",
+      "metaDescription": "Command the game with the Navy Dominance Football Kit from Fitting Club. Designed with a deep navy blue base and striking light blue accents, this premium",
+      "keywords": [
+        "navy dominance football kit",
+        "football-soccer-kits",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Navy Dominance Football Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "golden-legacy-football-kit",
@@ -249,7 +453,19 @@ window.productsData = [
       "/assets/images/products/football-soccer-kits/golden-legacy-football-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/football-soccer-kits/golden-legacy-football-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Golden Legacy Football Kit | Fitting Club",
+      "metaDescription": "Stand out on every matchday with the Golden Legacy Football Kit from Fitting Club. Designed with a striking gold colorway and sleek black accents, this premium",
+      "keywords": [
+        "golden legacy football kit",
+        "football-soccer-kits",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Golden Legacy Football Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "arctic-force-football-kit",
@@ -263,7 +479,19 @@ window.productsData = [
       "/assets/images/products/football-soccer-kits/arctic-force-football-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/football-soccer-kits/arctic-force-football-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Arctic Force Football Kit | Fitting Club",
+      "metaDescription": "Refresh your team's look with the Arctic Force Football Kit from Fitting Club. Inspired by speed and precision, this premium football kit features a crisp",
+      "keywords": [
+        "arctic force football kit",
+        "football-soccer-kits",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Arctic Force Football Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "royal-vortex-football-kit",
@@ -277,7 +505,19 @@ window.productsData = [
       "/assets/images/products/football-soccer-kits/royal-vortex-football-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/football-soccer-kits/royal-vortex-football-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Royal Vortex Football Kit | Fitting Club",
+      "metaDescription": "Stand out with confidence in the Royal Vortex Football Kit from Fitting Club. Featuring a rich royal purple base with striking gold accents and dynamic",
+      "keywords": [
+        "royal vortex football kit",
+        "football-soccer-kits",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Royal Vortex Football Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "emerald-strike-football-kit",
@@ -291,7 +531,19 @@ window.productsData = [
       "/assets/images/products/football-soccer-kits/emerald-strike-football-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/football-soccer-kits/emerald-strike-football-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Emerald Strike Football Kit | Fitting Club",
+      "metaDescription": "Take your team's style to the next level with the Emerald Strike Football Kit from Fitting Club. Designed with a bold black base and vibrant emerald green",
+      "keywords": [
+        "emerald strike football kit",
+        "football-soccer-kits",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Emerald Strike Football Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "crimson-legacy-football-kit",
@@ -305,7 +557,19 @@ window.productsData = [
       "/assets/images/products/football-soccer-kits/crimson-legacy-football-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/football-soccer-kits/crimson-legacy-football-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Crimson Legacy Football Kit | Fitting Club",
+      "metaDescription": "Honor tradition while embracing modern performance with the Crimson Legacy Football Kit from Fitting Club. Designed with a rich maroon base, bold white",
+      "keywords": [
+        "crimson legacy football kit",
+        "football-soccer-kits",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Crimson Legacy Football Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "ocean-thunder-football-kit",
@@ -319,7 +583,19 @@ window.productsData = [
       "/assets/images/products/football-soccer-kits/ocean-thunder-football-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/football-soccer-kits/ocean-thunder-football-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Ocean Thunder Football Kit | Fitting Club",
+      "metaDescription": "Bring energy and confidence to every match with the Ocean Thunder Football Kit from Fitting Club. Featuring a bold navy blue base combined with vibrant orange",
+      "keywords": [
+        "ocean thunder football kit",
+        "football-soccer-kits",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Ocean Thunder Football Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "forest-vanguard-football-kit",
@@ -333,7 +609,19 @@ window.productsData = [
       "/assets/images/products/football-soccer-kits/forest-vanguard-football-kit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/football-soccer-kits/forest-vanguard-football-kit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Forest Vanguard Football Kit | Fitting Club",
+      "metaDescription": "Command attention on the pitch with the Forest Vanguard Football Kit from Fitting Club. Featuring a premium dark forest green base enhanced by elegant gold and",
+      "keywords": [
+        "forest vanguard football kit",
+        "football-soccer-kits",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Forest Vanguard Football Kit - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "fitting-club-rising-focus-bjj-gi-blackred",
@@ -347,7 +635,19 @@ window.productsData = [
       "/assets/images/products/karate-uniform/fitting-club-rising-focus-bjj-gi-blackred/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/karate-uniform/fitting-club-rising-focus-bjj-gi-blackred/image-1.jpg",
-    "featured": true
+    "featured": true,
+    "seo": {
+      "metaTitle": "Fitting Club Rising Focus BJJ Gi (BlackRed) | Fitting Club",
+      "metaDescription": "Fitting Club Rising Focus BJJ Gi Built for athletes who demand durability, comfort, and performance, the Fitting Club Rising Focus BJJ Gi combines premium",
+      "keywords": [
+        "fitting club rising focus bjj gi (blackred)",
+        "karate-uniform",
+        "karate",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Fitting Club Rising Focus BJJ Gi (BlackRed) - karate manufactured in Sialkot"
+    }
   },
   {
     "id": "fitting-club-pure-discipline-bjj-gi-white",
@@ -361,7 +661,19 @@ window.productsData = [
       "/assets/images/products/karate-uniform/fitting-club-pure-discipline-bjj-gi-white/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/karate-uniform/fitting-club-pure-discipline-bjj-gi-white/image-1.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Fitting Club Pure Discipline BJJ Gi (White) | Fitting Club",
+      "metaDescription": "Fitting Club Pure Discipline White Gi The Fitting Club Pure Discipline White BJJ Gi is designed for practitioners who appreciate traditional martial arts",
+      "keywords": [
+        "fitting club pure discipline bjj gi (white)",
+        "karate-uniform",
+        "karate",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Fitting Club Pure Discipline BJJ Gi (White) - karate manufactured in Sialkot"
+    }
   },
   {
     "id": "steadfast-mind",
@@ -375,7 +687,19 @@ window.productsData = [
       "/assets/images/products/karate-uniform/steadfast-mind/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/karate-uniform/steadfast-mind/image-1.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Steadfast Mind | Fitting Club",
+      "metaDescription": "Fitting Club Steadfast Mind Black Gi The Steadfast Mind Gi represents focus, resilience, and discipline. Designed with a traditional all-black appearance, it",
+      "keywords": [
+        "steadfast mind",
+        "karate-uniform",
+        "karate",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Steadfast Mind - karate manufactured in Sialkot"
+    }
   },
   {
     "id": "relentless-spirit",
@@ -389,7 +713,19 @@ window.productsData = [
       "/assets/images/products/karate-uniform/relentless-spirit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/karate-uniform/relentless-spirit/image-1.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Relentless Spirit | Fitting Club",
+      "metaDescription": "04 – Relentless Spirit Fitting Club Relentless Spirit Red Brazilian Jiu-Jitsu Gi | Premium Pearl Weave BJJ Training & Competition Uniform Description Fitting",
+      "keywords": [
+        "relentless spirit",
+        "karate-uniform",
+        "karate",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Relentless Spirit - karate manufactured in Sialkot"
+    }
   },
   {
     "id": "unwavering-focus",
@@ -403,7 +739,19 @@ window.productsData = [
       "/assets/images/products/karate-uniform/unwavering-focus/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/karate-uniform/unwavering-focus/image-1.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Unwavering Focus | Fitting Club",
+      "metaDescription": "05 – Unwavering Focus Fitting Club Unwavering Focus Navy Blue Brazilian Jiu-Jitsu Gi | Premium Pearl Weave BJJ Training & Competition Uniform Description",
+      "keywords": [
+        "unwavering focus",
+        "karate-uniform",
+        "karate",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Unwavering Focus - karate manufactured in Sialkot"
+    }
   },
   {
     "id": "resilient-path",
@@ -417,7 +765,19 @@ window.productsData = [
       "/assets/images/products/karate-uniform/resilient-path/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/karate-uniform/resilient-path/image-1.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Resilient Path | Fitting Club",
+      "metaDescription": "06 – Resilient Path Fitting Club Resilient Path Olive Green Brazilian Jiu-Jitsu Gi | Premium Pearl Weave BJJ Training & Competition Uniform Description Fitting",
+      "keywords": [
+        "resilient path",
+        "karate-uniform",
+        "karate",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Resilient Path - karate manufactured in Sialkot"
+    }
   },
   {
     "id": "inner-strength",
@@ -431,7 +791,19 @@ window.productsData = [
       "/assets/images/products/karate-uniform/inner-strength/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/karate-uniform/inner-strength/image-1.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Inner Strength | Fitting Club",
+      "metaDescription": "07 – Inner Strength Fitting Club Inner Strength Purple Brazilian Jiu-Jitsu Gi | Premium Pearl Weave BJJ Training & Competition Uniform Description Fitting Club",
+      "keywords": [
+        "inner strength",
+        "karate-uniform",
+        "karate",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Inner Strength - karate manufactured in Sialkot"
+    }
   },
   {
     "id": "steadfast-discipline",
@@ -445,7 +817,19 @@ window.productsData = [
       "/assets/images/products/karate-uniform/steadfast-discipline/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/karate-uniform/steadfast-discipline/image-1.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Steadfast Discipline | Fitting Club",
+      "metaDescription": "08 – Steadfast Discipline Fitting Club Steadfast Discipline Charcoal Gray Brazilian Jiu-Jitsu Gi | Premium Pearl Weave BJJ Training & Competition Uniform",
+      "keywords": [
+        "steadfast discipline",
+        "karate-uniform",
+        "karate",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Steadfast Discipline - karate manufactured in Sialkot"
+    }
   },
   {
     "id": "pure-resolve",
@@ -459,7 +843,19 @@ window.productsData = [
       "/assets/images/products/karate-uniform/pure-resolve/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/karate-uniform/pure-resolve/image-1.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Pure Resolve | Fitting Club",
+      "metaDescription": "09 – Pure Resolve Fitting Club Pure Resolve Teal Blue Brazilian Jiu-Jitsu Gi | Premium Pearl Weave BJJ Training & Competition Uniform Description Fitting Club",
+      "keywords": [
+        "pure resolve",
+        "karate-uniform",
+        "karate",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Pure Resolve - karate manufactured in Sialkot"
+    }
   },
   {
     "id": "unbreakable-focus",
@@ -473,7 +869,19 @@ window.productsData = [
       "/assets/images/products/karate-uniform/unbreakable-focus/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/karate-uniform/unbreakable-focus/image-1.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Unbreakable Focus | Fitting Club",
+      "metaDescription": "10 – Unbreakable Focus Fitting Club Unbreakable Focus Navy Blue Brazilian Jiu-Jitsu Gi | Premium Pearl Weave BJJ Training & Competition Uniform Description",
+      "keywords": [
+        "unbreakable focus",
+        "karate-uniform",
+        "karate",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Unbreakable Focus - karate manufactured in Sialkot"
+    }
   },
   {
     "id": "premium-duffle-bag-01",
@@ -487,7 +895,19 @@ window.productsData = [
       "/assets/images/products/duffel-bags/premium-duffle-bag-01/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/duffel-bags/premium-duffle-bag-01/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Premium Duffle Bag 01 | Fitting Club",
+      "metaDescription": "Premium Duffle Bag 01 | Waterproof Gym & Travel Sports Bag | OEM & Private Label Bag Manufacturer Description Premium Duffle Bag 01 – Professional Sports &",
+      "keywords": [
+        "premium duffle bag 01",
+        "duffel-bags",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Premium Duffle Bag 01 - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "premium-duffle-bag-02",
@@ -501,7 +921,19 @@ window.productsData = [
       "/assets/images/products/duffel-bags/premium-duffle-bag-02/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/duffel-bags/premium-duffle-bag-02/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Premium Duffle Bag 02 | Fitting Club",
+      "metaDescription": "Premium Duffle Bag 02 | Olive Green Waterproof Gym & Travel Sports Bag | OEM & Private Label Bag Manufacturer Description Premium Duffle Bag 02 – Professional",
+      "keywords": [
+        "premium duffle bag 02",
+        "duffel-bags",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Premium Duffle Bag 02 - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "premium-duffle-bag-03",
@@ -515,7 +947,19 @@ window.productsData = [
       "/assets/images/products/duffel-bags/premium-duffle-bag-03/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/duffel-bags/premium-duffle-bag-03/image-1.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Premium Duffle Bag 03 | Fitting Club",
+      "metaDescription": "Premium Duffle Bag 03 | Navy Blue Waterproof Gym & Travel Sports Bag | OEM & Private Label Bag Manufacturer Description Premium Duffle Bag 03 – Professional",
+      "keywords": [
+        "premium duffle bag 03",
+        "duffel-bags",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Premium Duffle Bag 03 - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "premium-duffle-bag-04",
@@ -529,7 +973,19 @@ window.productsData = [
       "/assets/images/products/duffel-bags/premium-duffle-bag-04/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/duffel-bags/premium-duffle-bag-04/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Premium Duffle Bag 04 | Fitting Club",
+      "metaDescription": "Premium Duffle Bag 04 | Light Grey Waterproof Gym & Travel Sports Bag | OEM & Private Label Bag Manufacturer Description Premium Duffle Bag 04 – Professional",
+      "keywords": [
+        "premium duffle bag 04",
+        "duffel-bags",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Premium Duffle Bag 04 - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "premium-duffle-bag-05",
@@ -543,7 +999,19 @@ window.productsData = [
       "/assets/images/products/duffel-bags/premium-duffle-bag-05/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/duffel-bags/premium-duffle-bag-05/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Premium Duffle Bag 05 | Fitting Club",
+      "metaDescription": "Premium Duffle Bag 05 | Maroon Waterproof Gym & Travel Sports Bag | OEM & Private Label Bag Manufacturer Description Premium Duffle Bag 05 – Professional",
+      "keywords": [
+        "premium duffle bag 05",
+        "duffel-bags",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Premium Duffle Bag 05 - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "premium-duffle-bag-06",
@@ -557,7 +1025,19 @@ window.productsData = [
       "/assets/images/products/duffel-bags/premium-duffle-bag-06/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/duffel-bags/premium-duffle-bag-06/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Premium Duffle Bag 06 | Fitting Club",
+      "metaDescription": "Premium Duffle Bag 06 | Teal Blue Waterproof Gym & Travel Sports Bag | OEM & Private Label Bag Manufacturer Description Premium Duffle Bag 06 – Professional",
+      "keywords": [
+        "premium duffle bag 06",
+        "duffel-bags",
+        "sportswear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Premium Duffle Bag 06 - sportswear manufactured in Sialkot"
+    }
   },
   {
     "id": "stealth-mode",
@@ -571,7 +1051,19 @@ window.productsData = [
       "/assets/images/products/tracksuits/stealth-mode/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/tracksuits/stealth-mode/image-2.jpg",
-    "featured": true
+    "featured": true,
+    "seo": {
+      "metaTitle": "Stealth Mode | Fitting Club",
+      "metaDescription": "01 – Stealth Mode Fitting Club Stealth Mode Black Hooded Tracksuit | Premium Cotton Fleece Athletic Slim Fit Sportswear Set Description Fitting Club Stealth",
+      "keywords": [
+        "stealth mode",
+        "tracksuits",
+        "fashionwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Stealth Mode - fashionwear manufactured in Sialkot"
+    }
   },
   {
     "id": "elevate-mode",
@@ -585,7 +1077,19 @@ window.productsData = [
       "/assets/images/products/tracksuits/elevate-mode/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/tracksuits/elevate-mode/image-1.jpg",
-    "featured": true
+    "featured": true,
+    "seo": {
+      "metaTitle": "Elevate Mode | Fitting Club",
+      "metaDescription": "02 – Elevate Mode Fitting Club Elevate Mode Navy Blue Hooded Tracksuit | Premium Cotton Fleece Athletic Slim Fit Sportswear Set Description Fitting Club",
+      "keywords": [
+        "elevate mode",
+        "tracksuits",
+        "fashionwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Elevate Mode - fashionwear manufactured in Sialkot"
+    }
   },
   {
     "id": "ignite-mode",
@@ -599,7 +1103,19 @@ window.productsData = [
       "/assets/images/products/tracksuits/ignite-mode/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/tracksuits/ignite-mode/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Ignite Mode | Fitting Club",
+      "metaDescription": "03 – Ignite Mode Fitting Club Ignite Mode Maroon Hooded Tracksuit | Premium Cotton Fleece Athletic Slim Fit Sportswear Set Description Fitting Club Ignite Mode",
+      "keywords": [
+        "ignite mode",
+        "tracksuits",
+        "fashionwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Ignite Mode - fashionwear manufactured in Sialkot"
+    }
   },
   {
     "id": "essence-mode",
@@ -613,7 +1129,19 @@ window.productsData = [
       "/assets/images/products/tracksuits/essence-mode/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/tracksuits/essence-mode/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Essence Mode | Fitting Club",
+      "metaDescription": "04 – Essence Mode Fitting Club Essence Mode Cream Pullover Hoodie Tracksuit | Premium Cotton Fleece Athletic Slim Fit Sportswear Set Description Fitting Club",
+      "keywords": [
+        "essence mode",
+        "tracksuits",
+        "fashionwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Essence Mode - fashionwear manufactured in Sialkot"
+    }
   },
   {
     "id": "peak-mode",
@@ -627,7 +1155,19 @@ window.productsData = [
       "/assets/images/products/tracksuits/peak-mode/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/tracksuits/peak-mode/image-1.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Peak Mode | Fitting Club",
+      "metaDescription": "05 – Peak Mode Fitting Club Peak Mode Pakistani Green Pullover Hoodie Tracksuit | Premium Cotton Fleece Athletic Slim Fit Sportswear Set Description Fitting",
+      "keywords": [
+        "peak mode",
+        "tracksuits",
+        "fashionwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Peak Mode - fashionwear manufactured in Sialkot"
+    }
   },
   {
     "id": "power-mode",
@@ -641,7 +1181,19 @@ window.productsData = [
       "/assets/images/products/tracksuits/power-mode/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/tracksuits/power-mode/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Power Mode | Fitting Club",
+      "metaDescription": "06 – Power Mode Fitting Club Power Mode Charcoal Grey Pullover Hoodie Tracksuit | Premium Cotton Fleece Athletic Slim Fit Sportswear Set Description Fitting",
+      "keywords": [
+        "power mode",
+        "tracksuits",
+        "fashionwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Power Mode - fashionwear manufactured in Sialkot"
+    }
   },
   {
     "id": "dominate-mode",
@@ -655,7 +1207,19 @@ window.productsData = [
       "/assets/images/products/tracksuits/dominate-mode/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/tracksuits/dominate-mode/image-1.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Dominate Mode | Fitting Club",
+      "metaDescription": "07 – Dominate Mode Fitting Club Dominate Mode Navy Blue & Cream Panel Tracksuit | Premium Cotton Fleece Athletic Slim Fit Hoodie & Joggers Set Description Club",
+      "keywords": [
+        "dominate mode",
+        "tracksuits",
+        "fashionwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Dominate Mode - fashionwear manufactured in Sialkot"
+    }
   },
   {
     "id": "victory-mode",
@@ -669,7 +1233,19 @@ window.productsData = [
       "/assets/images/products/tracksuits/victory-mode/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/tracksuits/victory-mode/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Victory Mode | Fitting Club",
+      "metaDescription": "08 – Victory Mode Fitting Club Victory Mode Olive Green & Black Panel Tracksuit | Premium Cotton Fleece Athletic Slim Fit Hoodie & Joggers Set Description",
+      "keywords": [
+        "victory mode",
+        "tracksuits",
+        "fashionwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Victory Mode - fashionwear manufactured in Sialkot"
+    }
   },
   {
     "id": "beyond-mode",
@@ -683,7 +1259,19 @@ window.productsData = [
       "/assets/images/products/tracksuits/beyond-mode/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/tracksuits/beyond-mode/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Beyond Mode | Fitting Club",
+      "metaDescription": "09 – Beyond Mode Fitting Club Beyond Mode Navy Blue & Light Grey Panel Tracksuit | Premium Cotton Fleece Athletic Slim Fit Hoodie & Joggers Set Description",
+      "keywords": [
+        "beyond mode",
+        "tracksuits",
+        "fashionwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Beyond Mode - fashionwear manufactured in Sialkot"
+    }
   },
   {
     "id": "essential-mode",
@@ -697,7 +1285,19 @@ window.productsData = [
       "/assets/images/products/tracksuits/essential-mode/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/tracksuits/essential-mode/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Essential Mode | Fitting Club",
+      "metaDescription": "10 – Essential Mode Fitting Club Essential Mode Navy Blue Hoodie & Light Grey Joggers Tracksuit | Premium Cotton Fleece Athletic Slim Fit Set Meta Description",
+      "keywords": [
+        "essential mode",
+        "tracksuits",
+        "fashionwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Essential Mode - fashionwear manufactured in Sialkot"
+    }
   },
   {
     "id": "prime-mode",
@@ -711,7 +1311,19 @@ window.productsData = [
       "/assets/images/products/tracksuits/prime-mode/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/tracksuits/prime-mode/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Prime Mode | Fitting Club",
+      "metaDescription": "11 – Prime Mode Fitting Club Prime Mode Burgundy Hoodie & Black Joggers Tracksuit | Premium Cotton Fleece Athletic Slim Fit Sportswear Set Description Fitting",
+      "keywords": [
+        "prime mode",
+        "tracksuits",
+        "fashionwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Prime Mode - fashionwear manufactured in Sialkot"
+    }
   },
   {
     "id": "focus-mode",
@@ -725,7 +1337,19 @@ window.productsData = [
       "/assets/images/products/tracksuits/focus-mode/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/tracksuits/focus-mode/image-1.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Focus Mode | Fitting Club",
+      "metaDescription": "12 – Focus Mode Fitting Club Focus Mode Sand Beige Hoodie & Chocolate Brown Joggers Tracksuit | Premium Cotton Fleece Athletic Slim Fit Sportswear Set",
+      "keywords": [
+        "focus mode",
+        "tracksuits",
+        "fashionwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Focus Mode - fashionwear manufactured in Sialkot"
+    }
   },
   {
     "id": "regular-fit-sweatshirt",
@@ -739,7 +1363,19 @@ window.productsData = [
       "/assets/images/products/sweatshirts/regular-fit-sweatshirt/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/sweatshirts/regular-fit-sweatshirt/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Regular Fit Sweatshirt | Fitting Club",
+      "metaDescription": "Fitting Club Olive Green Regular Fit Sweatshirt | Premium Cotton Fleece Crew Neck Custom Manufacturer Description Fitting Club Olive Green Regular Fit",
+      "keywords": [
+        "regular fit sweatshirt",
+        "sweatshirts",
+        "fashionwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Regular Fit Sweatshirt - fashionwear manufactured in Sialkot"
+    }
   },
   {
     "id": "two-tone-regular-fit-sweatshirt",
@@ -753,7 +1389,19 @@ window.productsData = [
       "/assets/images/products/sweatshirts/two-tone-regular-fit-sweatshirt/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/sweatshirts/two-tone-regular-fit-sweatshirt/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Two-Tone Regular Fit Sweatshirt | Fitting Club",
+      "metaDescription": "Fitting Club Cream & Sky Blue Two-Tone Regular Fit Sweatshirt | Premium Cotton Fleece Crew Neck Description Fitting Club Cream & Sky Blue Two-Tone Regular Fit",
+      "keywords": [
+        "two-tone regular fit sweatshirt",
+        "sweatshirts",
+        "fashionwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Two-Tone Regular Fit Sweatshirt - fashionwear manufactured in Sialkot"
+    }
   },
   {
     "id": "regular-cotton-t-shirt",
@@ -767,7 +1415,19 @@ window.productsData = [
       "/assets/images/products/t-shirts/regular-cotton-t-shirt/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/t-shirts/regular-cotton-t-shirt/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Regular Cotton T-Shirt | Fitting Club",
+      "metaDescription": "Fitting Club Purple Regular Cotton T-Shirt | Premium Crew Neck Soft Breathable Casual Tee Description Fitting Club Purple Regular Cotton T-Shirt The Fitting",
+      "keywords": [
+        "regular cotton t-shirt",
+        "t-shirts",
+        "fashionwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Regular Cotton T-Shirt - fashionwear manufactured in Sialkot"
+    }
   },
   {
     "id": "panel-cotton-t-shirt",
@@ -781,7 +1441,19 @@ window.productsData = [
       "/assets/images/products/t-shirts/panel-cotton-t-shirt/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/t-shirts/panel-cotton-t-shirt/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Panel Cotton T-Shirt | Fitting Club",
+      "metaDescription": "Fitting Club Black White Beige Panel Cotton T-Shirt | Premium Crew Neck Color Block Casual Tee Description Fitting Club Black, White & Beige Panel Cotton",
+      "keywords": [
+        "panel cotton t-shirt",
+        "t-shirts",
+        "fashionwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Panel Cotton T-Shirt - fashionwear manufactured in Sialkot"
+    }
   },
   {
     "id": "windbreaker-suit",
@@ -795,7 +1467,19 @@ window.productsData = [
       "/assets/images/products/windbreaker/windbreaker-suit/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/windbreaker/windbreaker-suit/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Windbreaker Suit | Fitting Club",
+      "metaDescription": "Description The Kit 06 Windbreaker Suit combines advanced weather protection with lightweight comfort and a bold athletic design. Expertly manufactured in",
+      "keywords": [
+        "windbreaker suit",
+        "windbreaker",
+        "fashionwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Windbreaker Suit - fashionwear manufactured in Sialkot"
+    }
   },
   {
     "id": "fashion-shorts",
@@ -809,7 +1493,19 @@ window.productsData = [
       "/assets/images/products/shorts/fashion-shorts/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/shorts/fashion-shorts/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Fashion Shorts | Fitting Club",
+      "metaDescription": "Navy & Gold Two-Tone Regular Fit Fashion Shorts | Premium Cotton Blend Shorts | Custom Private Label Manufacturer Description Navy & Gold Two-Tone Regular Fit",
+      "keywords": [
+        "fashion shorts",
+        "shorts",
+        "fashionwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Fashion Shorts - fashionwear manufactured in Sialkot"
+    }
   },
   {
     "id": "regular-fit-polo-shirt",
@@ -823,7 +1519,19 @@ window.productsData = [
       "/assets/images/products/polo-shirts/regular-fit-polo-shirt/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/polo-shirts/regular-fit-polo-shirt/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Regular Fit Polo Shirt | Fitting Club",
+      "metaDescription": "Fitting Club Mustard Gold Regular Fit Polo Shirt | Premium Piqué Cotton Custom Polo Manufacturer Description Fitting Club Mustard Gold Regular Fit Polo Shirt",
+      "keywords": [
+        "regular fit polo shirt",
+        "polo-shirts",
+        "fashionwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Regular Fit Polo Shirt - fashionwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-sleeveless-hoodie-01",
@@ -837,7 +1545,19 @@ window.productsData = [
       "/assets/images/products/sleeveless-hoodies/performance-sleeveless-hoodie-01/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/sleeveless-hoodies/performance-sleeveless-hoodie-01/image-2.jpg",
-    "featured": true
+    "featured": true,
+    "seo": {
+      "metaTitle": "Performance Sleeveless Hoodie 01 | Fitting Club",
+      "metaDescription": "Performance Sleeveless Hoodie 01 | Premium Gym Sleeveless Hoodie | OEM & Private Label Activewear Manufacturer Description Performance Sleeveless Hoodie 01 –",
+      "keywords": [
+        "performance sleeveless hoodie 01",
+        "sleeveless-hoodies",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Sleeveless Hoodie 01 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-sleeveless-hoodie-02",
@@ -851,7 +1571,19 @@ window.productsData = [
       "/assets/images/products/sleeveless-hoodies/performance-sleeveless-hoodie-02/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/sleeveless-hoodies/performance-sleeveless-hoodie-02/image-2.jpg",
-    "featured": true
+    "featured": true,
+    "seo": {
+      "metaTitle": "Performance Sleeveless Hoodie 02 | Fitting Club",
+      "metaDescription": "Performance Sleeveless Hoodie 02 | Blue Gym Sleeveless Hoodie | OEM & Private Label Activewear Manufacturer Description Performance Sleeveless Hoodie 02 –",
+      "keywords": [
+        "performance sleeveless hoodie 02",
+        "sleeveless-hoodies",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Sleeveless Hoodie 02 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-sleeveless-hoodie-03",
@@ -865,7 +1597,19 @@ window.productsData = [
       "/assets/images/products/sleeveless-hoodies/performance-sleeveless-hoodie-03/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/sleeveless-hoodies/performance-sleeveless-hoodie-03/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Sleeveless Hoodie 03 | Fitting Club",
+      "metaDescription": "Performance Sleeveless Hoodie 03 | Maroon Gym Sleeveless Hoodie | OEM & Private Label Activewear Manufacturer Description Performance Sleeveless Hoodie 03 –",
+      "keywords": [
+        "performance sleeveless hoodie 03",
+        "sleeveless-hoodies",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Sleeveless Hoodie 03 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-sleeveless-hoodie-04",
@@ -879,7 +1623,19 @@ window.productsData = [
       "/assets/images/products/sleeveless-hoodies/performance-sleeveless-hoodie-04/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/sleeveless-hoodies/performance-sleeveless-hoodie-04/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Sleeveless Hoodie 04 | Fitting Club",
+      "metaDescription": "Performance Sleeveless Hoodie 04 | Olive Green Gym Sleeveless Hoodie | OEM & Private Label Activewear Manufacturer Description Performance Sleeveless Hoodie 04",
+      "keywords": [
+        "performance sleeveless hoodie 04",
+        "sleeveless-hoodies",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Sleeveless Hoodie 04 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-sleeveless-hoodie-05",
@@ -893,7 +1649,19 @@ window.productsData = [
       "/assets/images/products/sleeveless-hoodies/performance-sleeveless-hoodie-05/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/sleeveless-hoodies/performance-sleeveless-hoodie-05/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Sleeveless Hoodie 05 | Fitting Club",
+      "metaDescription": "Performance Sleeveless Hoodie 05 | Orange Gym Sleeveless Hoodie | OEM & Private Label Activewear Manufacturer Description Performance Sleeveless Hoodie 05 –",
+      "keywords": [
+        "performance sleeveless hoodie 05",
+        "sleeveless-hoodies",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Sleeveless Hoodie 05 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-sleeveless-hoodie-06",
@@ -907,7 +1675,19 @@ window.productsData = [
       "/assets/images/products/sleeveless-hoodies/performance-sleeveless-hoodie-06/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/sleeveless-hoodies/performance-sleeveless-hoodie-06/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Sleeveless Hoodie 06 | Fitting Club",
+      "metaDescription": "Performance Sleeveless Hoodie 06 | Yellow Gym Sleeveless Hoodie | OEM & Private Label Activewear Manufacturer Description Performance Sleeveless Hoodie 06 –",
+      "keywords": [
+        "performance sleeveless hoodie 06",
+        "sleeveless-hoodies",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Sleeveless Hoodie 06 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-t-shirt-01",
@@ -921,7 +1701,19 @@ window.productsData = [
       "/assets/images/products/performance-t-shirts/performance-t-shirt-01/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/performance-t-shirts/performance-t-shirt-01/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance T-Shirt 01 | Fitting Club",
+      "metaDescription": "Performance T-Shirt 01 | Premium Moisture-Wicking Gym T-Shirt | OEM & Private Label Activewear Manufacturer Description Performance T-Shirt 01 – Premium Gym",
+      "keywords": [
+        "performance t-shirt 01",
+        "performance-t-shirts",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance T-Shirt 01 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-t-shirt-02",
@@ -935,7 +1727,19 @@ window.productsData = [
       "/assets/images/products/performance-t-shirts/performance-t-shirt-02/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/performance-t-shirts/performance-t-shirt-02/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance T-Shirt 02 | Fitting Club",
+      "metaDescription": "Performance T-Shirt 02 | Maroon Moisture-Wicking Gym T-Shirt | OEM & Private Label Activewear Manufacturer Description Performance T-Shirt 02 – Premium Gym",
+      "keywords": [
+        "performance t-shirt 02",
+        "performance-t-shirts",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance T-Shirt 02 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-t-shirt-03",
@@ -949,7 +1753,19 @@ window.productsData = [
       "/assets/images/products/performance-t-shirts/performance-t-shirt-03/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/performance-t-shirts/performance-t-shirt-03/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance T-Shirt 03 | Fitting Club",
+      "metaDescription": "Performance T-Shirt 03 | Teal Moisture-Wicking Gym T-Shirt | OEM & Private Label Activewear Manufacturer Description Performance T-Shirt 03 – Premium Gym Wear",
+      "keywords": [
+        "performance t-shirt 03",
+        "performance-t-shirts",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance T-Shirt 03 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-t-shirt-04",
@@ -963,7 +1779,19 @@ window.productsData = [
       "/assets/images/products/performance-t-shirts/performance-t-shirt-04/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/performance-t-shirts/performance-t-shirt-04/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance T-Shirt 04 | Fitting Club",
+      "metaDescription": "Performance T-Shirt 04 | Steel Blue Performance Gym T-Shirt | OEM & Private Label Activewear Manufacturer Description Performance T-Shirt 04 – Premium Gym Wear",
+      "keywords": [
+        "performance t-shirt 04",
+        "performance-t-shirts",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance T-Shirt 04 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-t-shirt-05",
@@ -977,7 +1805,19 @@ window.productsData = [
       "/assets/images/products/performance-t-shirts/performance-t-shirt-05/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/performance-t-shirts/performance-t-shirt-05/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance T-Shirt 05 | Fitting Club",
+      "metaDescription": "Performance T-Shirt 05 | Olive Green Performance Gym T-Shirt | OEM & Private Label Activewear Manufacturer Description Performance T-Shirt 05 – Premium Gym",
+      "keywords": [
+        "performance t-shirt 05",
+        "performance-t-shirts",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance T-Shirt 05 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-t-shirt-06",
@@ -991,7 +1831,19 @@ window.productsData = [
       "/assets/images/products/performance-t-shirts/performance-t-shirt-06/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/performance-t-shirts/performance-t-shirt-06/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance T-Shirt 06 | Fitting Club",
+      "metaDescription": "Performance T-Shirt 06 | White Performance Gym T-Shirt | OEM & Private Label Activewear Manufacturer Description Performance T-Shirt 06 – Premium Gym Wear",
+      "keywords": [
+        "performance t-shirt 06",
+        "performance-t-shirts",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance T-Shirt 06 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-compression-shirt-01",
@@ -1005,7 +1857,19 @@ window.productsData = [
       "/assets/images/products/compression-shirts/performance-compression-shirt-01/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/compression-shirts/performance-compression-shirt-01/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Compression Shirt 01 | Fitting Club",
+      "metaDescription": "Performance Compression Shirt 01 | Premium Gym Compression Shirt | OEM & Private Label Activewear Manufacturer Description Performance Compression Shirt 01 –",
+      "keywords": [
+        "performance compression shirt 01",
+        "compression-shirts",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Compression Shirt 01 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-compression-shirt-02",
@@ -1019,7 +1883,19 @@ window.productsData = [
       "/assets/images/products/compression-shirts/performance-compression-shirt-02/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/compression-shirts/performance-compression-shirt-02/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Compression Shirt 02 | Fitting Club",
+      "metaDescription": "Performance Compression Shirt 02 | Red Gym Compression Shirt | OEM & Private Label Activewear Manufacturer Description Performance Compression Shirt 02 –",
+      "keywords": [
+        "performance compression shirt 02",
+        "compression-shirts",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Compression Shirt 02 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-compression-shirt-03",
@@ -1033,7 +1909,19 @@ window.productsData = [
       "/assets/images/products/compression-shirts/performance-compression-shirt-03/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/compression-shirts/performance-compression-shirt-03/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Compression Shirt 03 | Fitting Club",
+      "metaDescription": "Performance Compression Shirt 03 | Olive Green Gym Compression Shirt | OEM & Private Label Activewear Manufacturer Description Performance Compression Shirt 03",
+      "keywords": [
+        "performance compression shirt 03",
+        "compression-shirts",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Compression Shirt 03 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-compression-shirt-04",
@@ -1047,7 +1935,19 @@ window.productsData = [
       "/assets/images/products/compression-shirts/performance-compression-shirt-04/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/compression-shirts/performance-compression-shirt-04/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Compression Shirt 04 | Fitting Club",
+      "metaDescription": "Performance Compression Shirt 04 | Navy Blue Gym Compression Shirt | OEM & Private Label Activewear Manufacturer Description Performance Compression Shirt 04 –",
+      "keywords": [
+        "performance compression shirt 04",
+        "compression-shirts",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Compression Shirt 04 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-compression-shirt-05",
@@ -1061,7 +1961,19 @@ window.productsData = [
       "/assets/images/products/compression-shirts/performance-compression-shirt-05/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/compression-shirts/performance-compression-shirt-05/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Compression Shirt 05 | Fitting Club",
+      "metaDescription": "Performance Compression Shirt 05 | Charcoal Grey & Orange Gym Compression Shirt | OEM & Private Label Activewear Manufacturer Description Performance",
+      "keywords": [
+        "performance compression shirt 05",
+        "compression-shirts",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Compression Shirt 05 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-compression-shirt-06",
@@ -1075,7 +1987,19 @@ window.productsData = [
       "/assets/images/products/compression-shirts/performance-compression-shirt-06/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/compression-shirts/performance-compression-shirt-06/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Compression Shirt 06 | Fitting Club",
+      "metaDescription": "Performance Compression Shirt 06 | Black & Teal Gym Compression Shirt | OEM & Private Label Activewear Manufacturer Description Performance Compression Shirt",
+      "keywords": [
+        "performance compression shirt 06",
+        "compression-shirts",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Compression Shirt 06 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-compression-shorts-01",
@@ -1089,7 +2013,19 @@ window.productsData = [
       "/assets/images/products/compression-shorts-men/performance-compression-shorts-01/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/compression-shorts-men/performance-compression-shorts-01/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Compression Shorts 01 | Fitting Club",
+      "metaDescription": "Performance Compression Shorts 01 | Premium Gym Compression Shorts | OEM & Private Label Activewear Manufacturer Description Performance Compression Shorts 01",
+      "keywords": [
+        "performance compression shorts 01",
+        "compression-shorts-men",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Compression Shorts 01 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-compression-shorts-02",
@@ -1103,7 +2039,19 @@ window.productsData = [
       "/assets/images/products/compression-shorts-men/performance-compression-shorts-02/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/compression-shorts-men/performance-compression-shorts-02/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Compression Shorts 02 | Fitting Club",
+      "metaDescription": "Performance Compression Shorts 02 | Navy Blue Gym Compression Shorts | OEM & Private Label Activewear Manufacturer Description Performance Compression Shorts",
+      "keywords": [
+        "performance compression shorts 02",
+        "compression-shorts-men",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Compression Shorts 02 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-compression-shorts-03",
@@ -1117,7 +2065,19 @@ window.productsData = [
       "/assets/images/products/compression-shorts-men/performance-compression-shorts-03/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/compression-shorts-men/performance-compression-shorts-03/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Compression Shorts 03 | Fitting Club",
+      "metaDescription": "Performance Compression Shorts 03 | Olive Green Gym Compression Shorts | OEM & Private Label Activewear Manufacturer Description Performance Compression Shorts",
+      "keywords": [
+        "performance compression shorts 03",
+        "compression-shorts-men",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Compression Shorts 03 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-compression-shorts-04",
@@ -1131,7 +2091,19 @@ window.productsData = [
       "/assets/images/products/compression-shorts-men/performance-compression-shorts-04/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/compression-shorts-men/performance-compression-shorts-04/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Compression Shorts 04 | Fitting Club",
+      "metaDescription": "Performance Compression Shorts 04 | Navy Blue & Orange Gym Compression Shorts | OEM & Private Label Activewear Manufacturer Description Performance Compression",
+      "keywords": [
+        "performance compression shorts 04",
+        "compression-shorts-men",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Compression Shorts 04 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-compression-shorts-05",
@@ -1145,7 +2117,19 @@ window.productsData = [
       "/assets/images/products/compression-shorts-men/performance-compression-shorts-05/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/compression-shorts-men/performance-compression-shorts-05/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Compression Shorts 05 | Fitting Club",
+      "metaDescription": "Performance Compression Shorts 05 | Charcoal Grey & Purple Gym Compression Shorts | OEM & Private Label Activewear Manufacturer Description Performance",
+      "keywords": [
+        "performance compression shorts 05",
+        "compression-shorts-men",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Compression Shorts 05 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-compression-shorts-06",
@@ -1159,7 +2143,19 @@ window.productsData = [
       "/assets/images/products/compression-shorts-men/performance-compression-shorts-06/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/compression-shorts-men/performance-compression-shorts-06/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Compression Shorts 06 | Fitting Club",
+      "metaDescription": "Performance Compression Shorts 06 | Olive Green & Lime Gym Compression Shorts | OEM & Private Label Activewear Manufacturer Description Performance Compression",
+      "keywords": [
+        "performance compression shorts 06",
+        "compression-shorts-men",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Compression Shorts 06 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-gym-bra-01",
@@ -1173,7 +2169,19 @@ window.productsData = [
       "/assets/images/products/sports-bras/performance-gym-bra-01/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/sports-bras/performance-gym-bra-01/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Gym Bra 01 | Fitting Club",
+      "metaDescription": "Performance Gym Bra 01 | High Support Women's Sports Bra | OEM & Private Label Activewear Manufacturer Description Performance Gym Bra 01 – Premium Women's",
+      "keywords": [
+        "performance gym bra 01",
+        "sports-bras",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Gym Bra 01 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-gym-bra-02",
@@ -1187,7 +2195,19 @@ window.productsData = [
       "/assets/images/products/sports-bras/performance-gym-bra-02/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/sports-bras/performance-gym-bra-02/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Gym Bra 02 | Fitting Club",
+      "metaDescription": "Performance Gym Bra 02 | Pink High Support Women's Sports Bra | OEM & Private Label Activewear Manufacturer Description Performance Gym Bra 02 – Premium",
+      "keywords": [
+        "performance gym bra 02",
+        "sports-bras",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Gym Bra 02 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-gym-bra-03",
@@ -1201,7 +2221,19 @@ window.productsData = [
       "/assets/images/products/sports-bras/performance-gym-bra-03/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/sports-bras/performance-gym-bra-03/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Gym Bra 03 | Fitting Club",
+      "metaDescription": "Performance Gym Bra 03 | Navy Blue High Support Women's Sports Bra | OEM & Private Label Activewear Manufacturer Description Performance Gym Bra 03 – Premium",
+      "keywords": [
+        "performance gym bra 03",
+        "sports-bras",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Gym Bra 03 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-gym-bra-04",
@@ -1215,7 +2247,19 @@ window.productsData = [
       "/assets/images/products/sports-bras/performance-gym-bra-04/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/sports-bras/performance-gym-bra-04/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Gym Bra 04 | Fitting Club",
+      "metaDescription": "Performance Gym Bra 04 | Lavender High Support Women's Sports Bra | OEM & Private Label Activewear Manufacturer Description Performance Gym Bra 04 – Premium",
+      "keywords": [
+        "performance gym bra 04",
+        "sports-bras",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Gym Bra 04 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-gym-bra-05",
@@ -1229,7 +2273,19 @@ window.productsData = [
       "/assets/images/products/sports-bras/performance-gym-bra-05/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/sports-bras/performance-gym-bra-05/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Gym Bra 05 | Fitting Club",
+      "metaDescription": "Performance Gym Bra 05 | Teal Strappy Back High Support Women's Sports Bra | OEM & Private Label Activewear Manufacturer Description Performance Gym Bra 05 –",
+      "keywords": [
+        "performance gym bra 05",
+        "sports-bras",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Gym Bra 05 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-gym-bra-06",
@@ -1243,7 +2299,19 @@ window.productsData = [
       "/assets/images/products/sports-bras/performance-gym-bra-06/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/sports-bras/performance-gym-bra-06/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Gym Bra 06 | Fitting Club",
+      "metaDescription": "Performance Gym Bra 06 | Burgundy Front Zip High Support Women's Sports Bra | OEM & Private Label Activewear Manufacturer Description Performance Gym Bra 06 –",
+      "keywords": [
+        "performance gym bra 06",
+        "sports-bras",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Gym Bra 06 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-gym-crop-top-01",
@@ -1257,7 +2325,19 @@ window.productsData = [
       "/assets/images/products/crop-tops/performance-gym-crop-top-01/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/crop-tops/performance-gym-crop-top-01/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Gym Crop Top 01 | Fitting Club",
+      "metaDescription": "Performance Gym Crop Top 01 | Women's Moisture-Wicking Workout Crop Top | OEM & Private Label Activewear Manufacturer Description Performance Gym Crop Top 01 –",
+      "keywords": [
+        "performance gym crop top 01",
+        "crop-tops",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Gym Crop Top 01 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-gym-crop-top-02",
@@ -1271,7 +2351,19 @@ window.productsData = [
       "/assets/images/products/crop-tops/performance-gym-crop-top-02/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/crop-tops/performance-gym-crop-top-02/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Gym Crop Top 02 | Fitting Club",
+      "metaDescription": "Performance Gym Crop Top 02 | Women's Navy Performance Workout Crop Top | OEM & Private Label Activewear Manufacturer Description Performance Gym Crop Top 02 –",
+      "keywords": [
+        "performance gym crop top 02",
+        "crop-tops",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Gym Crop Top 02 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-gym-crop-top-03",
@@ -1285,7 +2377,19 @@ window.productsData = [
       "/assets/images/products/crop-tops/performance-gym-crop-top-03/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/crop-tops/performance-gym-crop-top-03/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Gym Crop Top 03 | Fitting Club",
+      "metaDescription": "Performance Gym Crop Top 03 | Olive Green Women's Performance Workout Crop Top | OEM & Private Label Activewear Manufacturer Description Performance Gym Crop",
+      "keywords": [
+        "performance gym crop top 03",
+        "crop-tops",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Gym Crop Top 03 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-gym-leggings-01",
@@ -1299,7 +2403,19 @@ window.productsData = [
       "/assets/images/products/leggings/performance-gym-leggings-01/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/leggings/performance-gym-leggings-01/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Gym Leggings 01 | Fitting Club",
+      "metaDescription": "Performance Gym Leggings 01 | Women's High Waist Workout Leggings | OEM & Private Label Activewear Manufacturer Description Performance Gym Leggings 01 –",
+      "keywords": [
+        "performance gym leggings 01",
+        "leggings",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Gym Leggings 01 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-gym-leggings-02",
@@ -1313,7 +2429,19 @@ window.productsData = [
       "/assets/images/products/leggings/performance-gym-leggings-02/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/leggings/performance-gym-leggings-02/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Gym Leggings 02 | Fitting Club",
+      "metaDescription": "Performance Gym Leggings 02 | Women's Burgundy High Waist Workout Leggings | OEM & Private Label Activewear Manufacturer Description Performance Gym Leggings",
+      "keywords": [
+        "performance gym leggings 02",
+        "leggings",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Gym Leggings 02 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-gym-leggings-03",
@@ -1327,7 +2455,19 @@ window.productsData = [
       "/assets/images/products/leggings/performance-gym-leggings-03/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/leggings/performance-gym-leggings-03/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Gym Leggings 03 | Fitting Club",
+      "metaDescription": "Performance Gym Leggings 03 | Women's Teal High Waist Workout Leggings | OEM & Private Label Activewear Manufacturer Description Performance Gym Leggings 03 –",
+      "keywords": [
+        "performance gym leggings 03",
+        "leggings",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Gym Leggings 03 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-gym-leggings-04",
@@ -1341,7 +2481,19 @@ window.productsData = [
       "/assets/images/products/leggings/performance-gym-leggings-04/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/leggings/performance-gym-leggings-04/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Gym Leggings 04 | Fitting Club",
+      "metaDescription": "Performance Gym Leggings 04 | Women's Lavender High Waist Workout Leggings | OEM & Private Label Activewear Manufacturer Description Performance Gym Leggings",
+      "keywords": [
+        "performance gym leggings 04",
+        "leggings",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Gym Leggings 04 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-gym-leggings-05",
@@ -1355,7 +2507,19 @@ window.productsData = [
       "/assets/images/products/leggings/performance-gym-leggings-05/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/leggings/performance-gym-leggings-05/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Gym Leggings 05 | Fitting Club",
+      "metaDescription": "Performance Gym Leggings 05 | Women's Olive Green High Waist Workout Leggings | OEM & Private Label Activewear Manufacturer Description Performance Gym",
+      "keywords": [
+        "performance gym leggings 05",
+        "leggings",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Gym Leggings 05 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-gym-leggings-06",
@@ -1369,7 +2533,19 @@ window.productsData = [
       "/assets/images/products/leggings/performance-gym-leggings-06/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/leggings/performance-gym-leggings-06/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Gym Leggings 06 | Fitting Club",
+      "metaDescription": "Title: Performance Gym Leggings 06 – Premium Women's Activewear Description: Performance Gym Leggings 06 are built for women who demand outstanding comfort,",
+      "keywords": [
+        "performance gym leggings 06",
+        "leggings",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Gym Leggings 06 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-womens-training-jacket-01",
@@ -1383,7 +2559,19 @@ window.productsData = [
       "/assets/images/products/training-jackets/performance-womens-training-jacket-01/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/training-jackets/performance-womens-training-jacket-01/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Women's Training Jacket 01 | Fitting Club",
+      "metaDescription": "Performance Women's Training Jacket 01 | Full Zip Gym Jacket | OEM & Private Label Activewear Manufacturer Description Performance Women's Training Jacket 01 –",
+      "keywords": [
+        "performance women's training jacket 01",
+        "training-jackets",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Women's Training Jacket 01 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-womens-training-jacket-02",
@@ -1397,7 +2585,19 @@ window.productsData = [
       "/assets/images/products/training-jackets/performance-womens-training-jacket-02/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/training-jackets/performance-womens-training-jacket-02/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Women's Training Jacket 02 | Fitting Club",
+      "metaDescription": "Performance Women's Training Jacket 02 | Navy Blue Full Zip Gym Jacket | OEM & Private Label Activewear Manufacturer Description Performance Women's Training",
+      "keywords": [
+        "performance women's training jacket 02",
+        "training-jackets",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Women's Training Jacket 02 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-womens-training-jacket-03",
@@ -1411,7 +2611,19 @@ window.productsData = [
       "/assets/images/products/training-jackets/performance-womens-training-jacket-03/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/training-jackets/performance-womens-training-jacket-03/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Women's Training Jacket 03 | Fitting Club",
+      "metaDescription": "Performance Women's Training Jacket 03 | Olive Green Full Zip Gym Jacket | OEM & Private Label Activewear Manufacturer Description Performance Women's Training",
+      "keywords": [
+        "performance women's training jacket 03",
+        "training-jackets",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Women's Training Jacket 03 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-womens-training-jacket-04",
@@ -1425,7 +2637,19 @@ window.productsData = [
       "/assets/images/products/training-jackets/performance-womens-training-jacket-04/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/training-jackets/performance-womens-training-jacket-04/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Women's Training Jacket 04 | Fitting Club",
+      "metaDescription": "Performance Women's Training Jacket 04 | Dusty Rose Full Zip Gym Jacket | OEM & Private Label Activewear Manufacturer Description Performance Women's Training",
+      "keywords": [
+        "performance women's training jacket 04",
+        "training-jackets",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Women's Training Jacket 04 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-womens-training-jacket-05",
@@ -1439,7 +2663,19 @@ window.productsData = [
       "/assets/images/products/training-jackets/performance-womens-training-jacket-05/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/training-jackets/performance-womens-training-jacket-05/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Women's Training Jacket 05 | Fitting Club",
+      "metaDescription": "Performance Women's Training Jacket 05 | Teal Blue Full Zip Gym Jacket | OEM & Private Label Activewear Manufacturer Description Performance Women's Training",
+      "keywords": [
+        "performance women's training jacket 05",
+        "training-jackets",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Women's Training Jacket 05 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "performance-womens-training-jacket-06",
@@ -1453,7 +2689,19 @@ window.productsData = [
       "/assets/images/products/training-jackets/performance-womens-training-jacket-06/image-2.jpg"
     ],
     "thumbnail": "/assets/images/products/training-jackets/performance-womens-training-jacket-06/image-2.jpg",
-    "featured": false
+    "featured": false,
+    "seo": {
+      "metaTitle": "Performance Women's Training Jacket 06 | Fitting Club",
+      "metaDescription": "Performance Women's Training Jacket 06 | Black Full Zip Gym Jacket | OEM & Private Label Activewear Manufacturer Description Performance Women's Training",
+      "keywords": [
+        "performance women's training jacket 06",
+        "training-jackets",
+        "gymwear",
+        "fitting club",
+        "sialkot"
+      ],
+      "imageAlt": "Performance Women's Training Jacket 06 - gymwear manufactured in Sialkot"
+    }
   },
   {
     "id": "boxing-gloves-01",
@@ -2222,6 +3470,7 @@ window.productsData = [
     "item": "jackets",
     "subgroup": null,
     "images": [
+      "/assets/images/products/jackets/fashion-wear-jacket-05/image-1.jpg",
       "/assets/images/products/jackets/fashion-wear-jacket-05/image-1.jpg"
     ],
     "thumbnail": "/assets/images/products/jackets/fashion-wear-jacket-05/image-1.jpg",

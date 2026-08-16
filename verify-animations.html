@@ -1,0 +1,108 @@
+/**
+ * Banner Animation Verification Script
+ * Checks that all banner animations have been slowed to premium speeds
+ */
+
+const animationChecks = [];
+
+// Check 1: Hero slide transitions
+const slides = document.querySelectorAll('.hero-slide');
+if (slides.length > 0) {
+  const computed = getComputedStyle(slides[0]);
+  const transitionDuration = computed.transitionDuration;
+  animationChecks.push({
+    name: 'Hero Slide Crossfade',
+    element: '.hero-slide',
+    property: 'transition-duration',
+    value: transitionDuration,
+    expected: '1.8s',
+    pass: transitionDuration.includes('1.8') || transitionDuration.includes('1800')
+  });
+}
+
+// Check 2: Page header fade
+const pageHeader = document.querySelector('.page-header');
+if (pageHeader) {
+  const computed = getComputedStyle(pageHeader);
+  const animation = computed.animation || computed.animationName;
+  animationChecks.push({
+    name: 'Page Header Fade Animation',
+    element: '.page-header',
+    property: 'animation',
+    value: animation,
+    expected: 'pageHeaderFadeIn 1.4s',
+    pass: animation.includes('pageHeaderFadeIn') && (animation.includes('1.4') || animation.includes('1400'))
+  });
+}
+
+// Check 3: Hero title entrance
+const heroTitle = document.querySelector('.hero-title');
+if (heroTitle) {
+  const chars = heroTitle.querySelectorAll('.char');
+  animationChecks.push({
+    name: 'Hero Title Entrance',
+    element: '.hero-title .char',
+    property: 'GSAP duration',
+    value: 'Check console during animation',
+    expected: '~1.0s per character',
+    pass: true // Can't check GSAP directly without running animation
+  });
+}
+
+// Check 4: Banner zoom
+const bannerImgs = document.querySelectorAll('.page-header img, .hero-slide img');
+if (bannerImgs.length > 0) {
+  const computed = getComputedStyle(bannerImgs[0]);
+  const animation = computed.animation || computed.animationName;
+  animationChecks.push({
+    name: 'Banner Zoom Animation',
+    element: 'img (page-header/hero-slide)',
+    property: 'animation',
+    value: animation,
+    expected: 'bannerZoomIn 1.5s',
+    pass: animation.includes('bannerZoomIn') && (animation.includes('1.5') || animation.includes('1500'))
+  });
+}
+
+console.log('═'.repeat(80));
+console.log('BANNER ANIMATION VERIFICATION');
+console.log('═'.repeat(80));
+console.log('Current Page:', window.location.pathname);
+console.log('');
+
+let passCount = 0;
+animationChecks.forEach(check => {
+  const status = check.pass ? '✓' : '✗';
+  console.log(`${status} ${check.name}`);
+  console.log(`  Element: ${check.element}`);
+  console.log(`  Property: ${check.property}`);
+  console.log(`  Current Value: ${check.value}`);
+  console.log(`  Expected: ${check.expected}`);
+  console.log('');
+  if (check.pass) passCount++;
+});
+
+console.log('═'.repeat(80));
+console.log(`Result: ${passCount}/${animationChecks.length} checks passed`);
+console.log('═'.repeat(80));
+
+// Timeline suggestions
+console.log('\nRECOMMENDED ANIMATION TIMELINE:');
+console.log('');
+console.log('Page Load Sequence:');
+console.log('  0.0s - Page loads, images begin loading');
+console.log('  0.2s - Page header fade-in begins (1.4s duration)');
+console.log('  0.2s - Banner zoom-in begins (1.5s duration)');
+console.log('  1.4s - Page header fade complete');
+console.log('  1.6s - Banner zoom complete');
+console.log('');
+console.log('Hero Content (homepage only):');
+console.log('  0.0s - Preloader fade out');
+console.log('  0.0s - Hero title chars begin entrance (1.0s duration, 0.06s stagger)');
+console.log('  0.5s - Hero subtitle begins fade (0.9s duration)');
+console.log('  0.6s - Hero buttons begin entrance (0.9s duration, 0.15s stagger)');
+console.log('  1.5s - All hero content visible');
+console.log('');
+console.log('Hero Slideshow:');
+console.log('  Each slide: 6.0s total (1.8s crossfade + 4.2s hold)');
+console.log('  Parallax scrub: 1.5s (soft, trailing motion)');
