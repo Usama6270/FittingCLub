@@ -16,12 +16,12 @@ const categoryData = [
     group: "Fashionwear",
     slug: "fashionwear",
     items: [
-      { name: "T-Shirts", slug: "t-shirts" },
+      { name: "T-Shirts", slug: "tshirts" },
       { name: "Polo Shirts", slug: "polo-shirts" },
       { name: "Sweatshirts", slug: "sweatshirts" },
       { name: "Hoodies", slug: "hoodies" },
       { name: "Jackets", slug: "jackets" },
-      { name: "Windbreaker", slug: "windbreaker" },
+      { name: "Windbreaker Suit", slug: "windbreaker-suits" },
       { name: "Shorts", slug: "shorts" },
       { name: "Tracksuits", slug: "tracksuits" }
     ]
